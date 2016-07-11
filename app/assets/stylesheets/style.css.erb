@@ -1,0 +1,44 @@
+html { 
+	background: url(<%= asset_path 'background.jpg' %>) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+a, a:hover, a:visited {text-decoration:none;color:#e7bb9e;}
+
+.credit {position:absolute;bottom:20px;right:20px;}
+.title {
+	position: absolute;
+	left: 50%;
+	top: 34.31%;
+	transform: translate(-50%, -50%);
+	height: 50%;
+	text-align:center;
+}
+.date {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	height: 20%;
+	text-align:center;
+}
+
+@media screen and (max-width:768px) {
+	html {
+		background: url(<%= asset_path 'backgroundSmall.jpg' %>) no-repeat center center fixed;
+	}
+}
+
+@media screen and (max-width:565px) {
+	html {
+		background: url(<%= asset_path 'backgroundSmallSmall.jpg' %>) no-repeat center center fixed;
+	}
+}
+
+@media screen and (max-width:414px) {
+	html {
+		background: url(<%= asset_path 'backgroundSmallSmallSmall.jpg' %>) no-repeat center center fixed;
+	}
+}

@@ -15,6 +15,7 @@ gem 'smt_rails', :git => 'git://github.com/railsware/smt_rails.git'
 # Gemfile
 gem 'paperclip'
 gem 'aws-sdk', '~> 2.3'
+gem 'sass-rails'
 
 group :development, :test do
   gem 'byebug'

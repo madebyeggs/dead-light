@@ -10,9 +10,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require reset
  *= require bootstrap.min
  *= require bootstrap-theme.min
  *= require style
- *= require fonts
+ *= require font-awesome
+ *= require colors
+ *= require animations
+ *= require table
  *= require font-awesome
  */

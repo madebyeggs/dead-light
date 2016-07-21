@@ -1,0 +1,16 @@
+<nav class="">
+	<div class="content container navigation">
+		<h2 id="releaseHeader"><a href="#section2">Dead Light</a></h2>
+		<span class="border"></span>
+	</div>
+	<%# if user_signed_in? %>
+		<div class="userInfo">
+			<div>{ Logged in as <strong><%#= current_user.email %></strong> }</div>
+			<div class="deviseLinks">
+				<%#= link_to 'Edit', edit_user_registration_path %> | <%#= link_to 'Logout', destroy_user_session_path, method: :delete %> | 
+				<%#= link_to "manage content", cms_path %>
+			</div>
+		</div>
+	<%# end %>
+	</div>
+</nav>

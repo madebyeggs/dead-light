@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
 <head>
+	<meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 	<title>Dead Light</title>
-  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="assets/favicon.png">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- jQuery -->
+	<%= javascript_include_tag "application" %>
   	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  	<%= csrf_meta_tags %>
+	<%= csrf_meta_tag %>
 
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic|Lato|Exo:400,600,300,800,700' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets -->
+	<%= stylesheet_link_tag "application", :media => "all" %>
+
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="assets/ie.css" />
+	<![endif]-->
+
 </head>
-<body>
 
-	<%= yield %>
+<body>
+	
+	<div class="loadingGif">
+		<div class="gif"><%= image_tag('loadingAlt.gif') %></div>
+	</div>
+	
+	<div class="body" style="display:none;">
+		<%= render 'layouts/header' %>
+		<%= yield %>
+		<%= render 'layouts/footer' %>
+	</div>
+	
+	<%= javascript_include_tag "visia" %>
 
 </body>
+
 </html>

@@ -12,8 +12,9 @@ gem 'newrelic_rpm'
 gem "twitter-bootstrap-rails"
 gem 'font-awesome-rails', '~> 4.5.0.1'
 gem 'smt_rails', :git => 'git://github.com/railsware/smt_rails.git'
+# Gemfile
 gem 'paperclip'
-gem 'aws-sdk', '~> 1.61.0'
+gem 'aws-sdk', '~> 2.3'
 
 group :development, :test do
   gem 'byebug'

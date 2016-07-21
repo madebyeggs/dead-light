@@ -1,16 +1,27 @@
 .color {color:#e7bb9e;}
+.white {color:#fdfbf9;}
 .italic {font-style:italic;}
-.sans-serif {font-family:'Century Gothic';}
+.sans-serif {font-family:'Open sans', sans-serif;}
 .serif {font-family: 'Libre Baskerville', serif;}
 .bold {font-weight:bold!important;}
 .regular {font-weight:normal!important;}
 .caps {text-transform:uppercase;}
 .big {font-size:5em;}
 .medium {font-size:2em;}
-.small {font-size:1em;}
-.spacedText {letter-spacing:0.06em;line-height:1.1em;}
+.medium-small {font-size:1.4em;}
+.small {font-size:1.2em;}
+.spacedText {letter-spacing:-0.01em;line-height:1.5em;}
+p {margin:1em 0px;}
 .shadow {text-shadow: 2px 2px #31372d;}
 .bg {
   background:rgba(0, 0, 0, 0.4);
   padding:0px 10px 10px 10px;
+}
+
+@media screen and (max-width:991px) {
+	.medium-small {font-size:1.2em;}
+}
+
+@media screen and (max-width:668px) {
+	.medium-small {text-align:justify;}
 }

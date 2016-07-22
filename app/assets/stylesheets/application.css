@@ -13,10 +13,11 @@
  *= require reset
  *= require bootstrap.min
  *= require bootstrap-theme.min
- *= require style
  *= require font-awesome
  *= require colors
  *= require animations
  *= require table
  *= require font-awesome
  */
+
+@import 'style';

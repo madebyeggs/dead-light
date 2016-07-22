@@ -184,7 +184,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 	width: 26px;
 	height: 26px;
 	cursor: pointer;
-	background: asset_url('right.png') no-repeat center center;
+	background: url(../assets/icons/right.png) no-repeat center center;
 }
 
 
@@ -216,7 +216,8 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 .parallax.black { background-color: #060606; }
 
 .parallax.no-parallax { background-size: cover!important; background-attachment: scroll!important; background-position: center!important; }
-.parralax-bg1 {background: asset_url('hero2.png')}
+
+.parralax-bg1 {background-image: image-url('hero2.png')}
 
 .title { text-align: center; }
 
@@ -239,7 +240,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 /* =Hero
 -------------------------------------------------------------- */
 
-.hero { text-align: center; background-image:asset_url('hero2.png');background-size: cover; }
+.hero { text-align: center; background-image:url(../assets/hero.png);background-size: cover; }
 .hero .content { padding-top: 0px; }
 
 .ticker {
@@ -281,18 +282,18 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 	margin-bottom: 20px;
 }
 
-.icon.ux { background: asset_url('ux.png') no-repeat top; background-size: 64px 128px; }
-.icon.design { background: asset_url('design.png') no-repeat top; background-size: 64px 128px; }
-.icon.seo { background: asset_url('seo.png') no-repeat top; background-size: 64px 128px; }
-.icon.social { background: asset_url('social.png') no-repeat top; background-size: 64px 128px; }
-.icon.tech { background: asset_url('tech.png') no-repeat top; background-size: 64px 128px; }
-.icon.commerce { background: asset_url('commerce.png') no-repeat top; background-size: 64px 128px; }
-.icon.config { background: asset_url('config.png') no-repeat top; background-size: 64px 128px; }
-.icon.heart { background: asset_url('heart.png') no-repeat top; background-size: 64px 128px; }
-.icon.coffee { background: asset_url('coffee.png') no-repeat top; background-size: 64px 128px; }
-.icon.plane { background: asset_url('plane.png') no-repeat top; background-size: 64px 128px; }
-.icon.calculator { background: asset_url('calculator.png') no-repeat top; background-size: 64px 128px; }
-.icon.portfolio { background: asset_url('portfolio.png') no-repeat top; background-size: 64px 128px; }
+.icon.ux { background: url(../assets/icons/ux.png) no-repeat top; background-size: 64px 128px; }
+.icon.design { background: url(../assets/icons/design.png) no-repeat top; background-size: 64px 128px; }
+.icon.seo { background: url(../assets/icons/seo.png) no-repeat top; background-size: 64px 128px; }
+.icon.social { background: url(../assets/icons/social.png) no-repeat top; background-size: 64px 128px; }
+.icon.tech { background: url(../assets/icons/tech.png) no-repeat top; background-size: 64px 128px; }
+.icon.commerce { background: url(../assets/icons/commerce.png) no-repeat top; background-size: 64px 128px; }
+.icon.config { background: url(../assets/icons/config.png) no-repeat top; background-size: 64px 128px; }
+.icon.heart { background: url(../assets/icons/heart.png) no-repeat top; background-size: 64px 128px; }
+.icon.coffee { background: url(../assets/icons/coffee.png) no-repeat top; background-size: 64px 128px; }
+.icon.plane { background: url(../assets/icons/plane.png) no-repeat top; background-size: 64px 128px; }
+.icon.calculator { background: url(../assets/icons/calculator.png) no-repeat top; background-size: 64px 128px; }
+.icon.portfolio { background: url(../assets/icons/portfolio.png) no-repeat top; background-size: 64px 128px; }
 .icon:hover { background-position: bottom; }
 
 
@@ -362,8 +363,8 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 .projectlist a { display: block; padding-bottom: 85px; position: relative;color: #202326;text-transform:none;font-family:"Lato";font-weight:300; }
 
 .projectlist a:hover { 
-	cursor: assest_url('	'), crosshair;
-	cursor: asset_url('more.png') 40 40, crosshair;
+	cursor: url('	'), crosshair;
+	cursor: url('../assets/more.png') 40 40, crosshair;
 }
 
 .projectlist a img { width: 100%; }
@@ -391,7 +392,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 -------------------------------------------------------------- */
 
 .ajax-section { position: relative; }
-.loader { display: none; background: #fff asset_url('loading.gif') no-repeat center 250px; width: 100%; height: 100%; position: absolute; z-index: 200; }
+.loader { display: none; background: #fff url(../assets/loading.gif) no-repeat center 250px; width: 100%; height: 100%; position: absolute; z-index: 200; }
 .project-hero { position: relative; }
 .closeProject { position: absolute; bottom: 0px; left: 50%; margin-left: -20px; z-index: 200; }
 .nextProject { position: absolute; top: 67%; right: -100px; z-index: 200; }
@@ -411,8 +412,8 @@ a, a:visited { font-weight: 400; text-decoration: none; }
     filter: alpha(opacity=100);
 }
 
-.nextProject a { background: asset_url('project-next.png') no-repeat center center; }
-.prevProject a { background: asset_url('project-prev.png') no-repeat center center; }
+.nextProject a { background: url(../assets/project-next.png) no-repeat center center; }
+.prevProject a { background: url(../assets/project-prev.png) no-repeat center center; }
 
 .nextProject a.disabled, .prevProject a.disabled { display: none; }
 
@@ -448,7 +449,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 	background-size: 12px 24px; 
 }
 
-.bx-pager-link.active { background: asset_url('pager-active.png') no-repeat top center; background-size: 12px 12px; }
+.bx-pager-link.active { background: url(../assets/projects/pager-active.png) no-repeat top center; background-size: 12px 12px; }
 .bx-pager-link:hover { background-position: bottom; }	
 
 .project-title { text-align: center; padding: 25px 0px 50px; }
@@ -459,7 +460,7 @@ i.icon-remove {
 	display: block; 
 	width: 26px; 
 	height: 26px;
-	background: asset_url('close.png') no-repeat;
+	background: url(../assets/icons/close.png) no-repeat;
 	background-size: 26px 26px;
 	filter: alpha(opacity=50);
 	opacity: .5;
@@ -484,7 +485,7 @@ i.icon-remove:hover {
 }
 
 .project-gallery-next .bx-next  { 
-	background: #fff asset_url('project-gallery-next.png') no-repeat center center; 
+	background: #fff url('../assets/icons/project-gallery-next.png') no-repeat center center; 
 	background-size: 22px 22px; 
 	right: 0;
 	-webkit-border-top-left-radius: 3px;
@@ -496,7 +497,7 @@ i.icon-remove:hover {
 }
 
 .project-gallery-prev .bx-prev  { 
-	background: #fff asset_url('project-gallery-prev.png') no-repeat center center; 
+	background: #fff url('../assets/icons/project-gallery-prev.png') no-repeat center center; 
 	background-size: 22px 22px; 
 	left: 0;
 	-webkit-border-top-right-radius: 3px;
@@ -533,11 +534,11 @@ i.icon-remove:hover {
 	opacity: 1;
 }
 
-.social-icon.small.facebook { background: asset_url('facebook-small.png') no-repeat center center; background-size: 26px 26px; }
-.social-icon.small.twitter { background: asset_url('twitter-small.png') no-repeat center center; background-size: 26px 26px;}
-.social-icon.small.google { background: asset_url('google-small.png') no-repeat center center; background-size: 26px 26px;}
-.social-icon.small.behance { background: asset_url('behance-small.png') no-repeat center center; background-size: 26px 26px;}
-.social-icon.small.linkedin { background: asset_url('linkedin-small.png') no-repeat center center; background-size: 26px 26px;}
+.social-icon.small.facebook { background: url(../assets/icons/facebook-small.png) no-repeat center center; background-size: 26px 26px; }
+.social-icon.small.twitter { background: url(../assets/icons/twitter-small.png) no-repeat center center; background-size: 26px 26px;}
+.social-icon.small.google { background: url(../assets/icons/google-small.png) no-repeat center center; background-size: 26px 26px;}
+.social-icon.small.behance { background: url(../assets/icons/behance-small.png) no-repeat center center; background-size: 26px 26px;}
+.social-icon.small.linkedin { background: url(../assets/icons/linkedin-small.png) no-repeat center center; background-size: 26px 26px;}
 
 
 /* =Subscribe
@@ -592,12 +593,12 @@ i.icon-remove:hover {
 
 .bx-next {
 	right: -100px;
-	background: asset_url('next.png') no-repeat center center;
+	background: url(../assets/icons/next.png) no-repeat center center;
 }
 
 .bx-prev {
 	left: -100px;
-	background: asset_url('prev.png') no-repeat center center;
+	background: url(../assets/icons/prev.png) no-repeat center center;
 }
 
 
@@ -745,7 +746,7 @@ footer { width: 100%; background: #060606;}
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
-	background: transparent asset_url('more.png') no-repeat top right;
+	background: transparent url(../assets/icons/more.png) no-repeat top right;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: geometricPrecision;
 	text-decoration: none;
@@ -814,7 +815,7 @@ footer { width: 100%; background: #060606;}
 }
 
 .notification.success p { 
-	background: asset_url('tick.png') no-repeat;
+	background: url(../assets/icons/tick.png) no-repeat;
 	background-size: 26px 26px;
 	color: #fff; 
 }
@@ -825,7 +826,7 @@ footer { width: 100%; background: #060606;}
 }
 
 .notification.error p {
-	background: asset_url('cross.png') no-repeat;
+	background: url(../assets/icons/cross.png) no-repeat;
 	background-size: 26px 26px; 
 	color: #fff;  
 }
@@ -926,8 +927,8 @@ footer { width: 100%; background: #060606;}
 	border-radius: 3px;
 }
 
-.gallery-next .bx-next  { background: #060606 asset_url('next.png') no-repeat; background-size: 22px 22px;}
-.gallery-prev .bx-prev  { background: #060606 asset_url('prev.png') no-repeat; background-size: 22px 22px;}
+.gallery-next .bx-next  { background: #060606 url('../assets/blog/next.png') no-repeat; background-size: 22px 22px;}
+.gallery-prev .bx-prev  { background: #060606 url('../assets/blog/prev.png') no-repeat; background-size: 22px 22px;}
 
 /* Sidebar styles */
 
@@ -967,7 +968,7 @@ footer { width: 100%; background: #060606;}
 	width: 20%;
 	height: 40px;
 	text-indent: -999em;
-	background: #fff asset_url('search.png') no-repeat center center;
+	background: #fff url(../assets/blog/search.png) no-repeat center center;
 	background-size: 16px 16px;
 	text-decoration: none;
 	-webkit-appearance: none;
@@ -1138,12 +1139,12 @@ footer { width: 100%; background: #060606;}
 
 #vegas-next {
 	right: -100px;
-	background: asset_url('next.png') no-repeat center center;
+	background: url(../assets/icons/next.png) no-repeat center center;
 }
 
 #vegas-prev {
 	left: -100px;
-	background: asset_url('prev.png') no-repeat center center;
+	background: url(../assets/icons/prev.png) no-repeat center center;
 }
 
 .vegas-loading {
@@ -1151,7 +1152,7 @@ footer { width: 100%; background: #060606;}
 }
 
 .vegas-overlay {
-	background: transparent asset_url('01.png');
+	background: transparent url(../assets/slider/overlays/01.png);
 	opacity: 0.5;
 	z-index: -1;
 }
@@ -1336,7 +1337,7 @@ footer { width: 100%; background: #060606;}
 	#bx-prev, #bx-next { display: none; }
 	#nextProject, #prevProject { display: none!important; }
 	.projectlist a:hover .projectinfo { background: transparent; }
-	.hero-video { background: asset_url('visia-video-poster.jpg') no-repeat; background-size: cover; background-position: top center;}
+	.hero-video { background: url(../video/visia-video-poster.jpg) no-repeat; background-size: cover; background-position: top center;}
 }
 
 /* Smaller than 960px */
@@ -1359,7 +1360,7 @@ footer { width: 100%; background: #060606;}
 	#respond { margin-left: 0px; }
 	#vegas-prev, #vegas-next { display: none; }
 	.tooltip { cursor: pointer; }
-	.hero-video { background: asset_url('visia-video-poster.jpg') no-repeat; background-size: cover; background-position: top center;}
+	.hero-video { background: url(../video/visia-video-poster.jpg) no-repeat; background-size: cover; background-position: top center;}
 	#big-video-wrap { display: none; }
 	.projectlist li {width:100%;margin-left:0%;}
 }
@@ -1471,32 +1472,32 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
   
-	.icon.right { background: asset_url('right@2x.png') no-repeat center center; background-size: 26px 26px; }
-	.icon.ux { background: asset_url('ux@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.design { background: asset_url('design@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.seo { background: asset_url('seo@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.social { background: asset_url('social@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.tech { background: asset_url('tech@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.commerce { background: asset_url('commerce@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.config { background: asset_url('config@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.heart { background: asset_url('heart@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.coffee { background: asset_url('coffee@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.portfolio { background: asset_url('portfolio@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.plane { background: asset_url('plane@2x.png') no-repeat top; background-size: 64px 128px; }
-	.icon.calculator { background: asset_url('calculator@2x.png') no-repeat top; background-size: 64px 128px; }
-	.social-icon.small.facebook { background: asset_url('facebook-small@2x.png') no-repeat center center; background-size: 26px 26px;}
-	.social-icon.small.twitter { background: asset_url('twitter-small@2x.png') no-repeat center center; background-size: 26px 26px;}
-	.social-icon.small.google { background: asset_url('google-small@2x.png') no-repeat center center; background-size: 26px 26px;}
-	.social-icon.small.behance { background: asset_url('behance-small@2x.png') no-repeat center center; background-size: 26px 26px;}
-	.social-icon.small.linkedin { background: asset_url('linkedin-small@2x.png') no-repeat center center; background-size: 26px 26px;}
-	i.icon-remove { background: asset_url('close@2x.png') no-repeat center center; background-size: 26px 26px;}
-	.bx-pager-link { background: asset_url('pager@2x.png') no-repeat top center; background-size: 12px 24px; }
-	.bx-pager-link.active { background: asset_url('pager-active@2x.png') no-repeat top center; background-size: 12px 12px; }
-	.gallery-next .bx-next  { background: #060606 asset_url('next@2x.png') no-repeat; background-size: 22px 22px;}
-	.gallery-prev .bx-prev  { background: #060606 asset_url('prev@2x.png') no-repeat; background-size: 22px 22px;}
-	.search-submit { 	background: #fff asset_url('search@2x.png') no-repeat center center; background-size: 16px 16px;}
-	.notification.success p  { background: asset_url('tick@2x.png') no-repeat; background-size: 26px 26px;}
-	.notification.error p  { background: asset_url('cross@2x.png') no-repeat; background-size: 26px 26px;}
-	.project-gallery-next .bx-next  {  background: #fff asset_url('project-gallery-next@2x.png') no-repeat center center; background-size: 22px 22px; }
-	.project-gallery-prev .bx-prev  {  background: #fff asset_url('project-gallery-prev@2x.png') no-repeat center center; background-size: 22px 22px; }
+	.icon.right { background: url(../images/icons/right@2x.png) no-repeat center center; background-size: 26px 26px; }
+	.icon.ux { background: url(../images/icons/ux@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.design { background: url(../images/icons/design@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.seo { background: url(../images/icons/seo@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.social { background: url(../images/icons/social@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.tech { background: url(../images/icons/tech@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.commerce { background: url(../images/icons/commerce@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.config { background: url(../images/icons/config@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.heart { background: url(../images/icons/heart@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.coffee { background: url(../images/icons/coffee@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.portfolio { background: url(../images/icons/portfolio@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.plane { background: url(../images/icons/plane@2x.png) no-repeat top; background-size: 64px 128px; }
+	.icon.calculator { background: url(../images/icons/calculator@2x.png) no-repeat top; background-size: 64px 128px; }
+	.social-icon.small.facebook { background: url(../images/icons/facebook-small@2x.png) no-repeat center center; background-size: 26px 26px;}
+	.social-icon.small.twitter { background: url(../images/icons/twitter-small@2x.png) no-repeat center center; background-size: 26px 26px;}
+	.social-icon.small.google { background: url(../images/icons/google-small@2x.png) no-repeat center center; background-size: 26px 26px;}
+	.social-icon.small.behance { background: url(../images/icons/behance-small@2x.png) no-repeat center center; background-size: 26px 26px;}
+	.social-icon.small.linkedin { background: url(../images/icons/linkedin-small@2x.png) no-repeat center center; background-size: 26px 26px;}
+	i.icon-remove { background: url(../assets/icons/close@2x.png) no-repeat center center; background-size: 26px 26px;}
+	.bx-pager-link { background: url(../images/projects/pager@2x.png) no-repeat top center; background-size: 12px 24px; }
+	.bx-pager-link.active { background: url(../images/projects/pager-active@2x.png) no-repeat top center; background-size: 12px 12px; }
+	.gallery-next .bx-next  { background: #060606 url('../images/blog/next@2x.png') no-repeat; background-size: 22px 22px;}
+	.gallery-prev .bx-prev  { background: #060606 url('../images/blog/prev@2x.png') no-repeat; background-size: 22px 22px;}
+	.search-submit { 	background: #fff url(../images/blog/search@2x.png) no-repeat center center; background-size: 16px 16px;}
+	.notification.success p  { background: url(../images/icons/tick@2x.png) no-repeat; background-size: 26px 26px;}
+	.notification.error p  { background: url(../images/icons/cross@2x.png) no-repeat; background-size: 26px 26px;}
+	.project-gallery-next .bx-next  {  background: #fff url('../images/icons/project-gallery-next@2x.png') no-repeat center center; background-size: 22px 22px; }
+	.project-gallery-prev .bx-prev  {  background: #fff url('../images/icons/project-gallery-prev@2x.png') no-repeat center center; background-size: 22px 22px; }
 }

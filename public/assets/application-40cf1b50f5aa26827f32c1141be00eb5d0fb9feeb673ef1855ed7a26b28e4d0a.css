@@ -3520,7 +3520,7 @@ i.icon-remove {
   display: block;
   width: 26px;
   height: 26px;
-  background-image: url(/images/close.png) no-repeat;
+  background-image: url(/images/close.png);
   background-size: 26px 26px;
   filter: alpha(opacity=50);
   opacity: .5;

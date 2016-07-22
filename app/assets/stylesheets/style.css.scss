@@ -239,7 +239,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 /* =Hero
 -------------------------------------------------------------- */
 
-.hero { text-align: center; background-image:image-url('hero2.png');background-size: cover; }
+.hero { text-align: center; background:asset_url('hero.png');background-size: cover; }
 .hero .content { padding-top: 0px; }
 
 .ticker {
@@ -362,7 +362,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 .projectlist a { display: block; padding-bottom: 85px; position: relative;color: #202326;text-transform:none;font-family:"Lato";font-weight:300; }
 
 .projectlist a:hover { 
-	cursor: asset_url('	'), crosshair;
+	cursor: assest_url('	'), crosshair;
 	cursor: asset_url('more.png') 40 40, crosshair;
 }
 

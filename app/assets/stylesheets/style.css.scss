@@ -362,7 +362,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 .projectlist a { display: block; padding-bottom: 85px; position: relative;color: #202326;text-transform:none;font-family:"Lato";font-weight:300; }
 
 .projectlist a:hover { 
-	cursor: image-url('	'), crosshair;
+	cursor: asset_url('	'), crosshair;
 	cursor: image-url('more.png') 40 40, crosshair;
 }
 
@@ -459,7 +459,7 @@ i.icon-remove {
 	display: block; 
 	width: 26px; 
 	height: 26px;
-	background: image-url('close.png') no-repeat;
+	background-image: image-url('close.png') no-repeat;
 	background-size: 26px 26px;
 	filter: alpha(opacity=50);
 	opacity: .5;
@@ -745,7 +745,7 @@ footer { width: 100%; background: #060606;}
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
-	background: transparent asset_url('more.png') no-repeat top right;
+	background-image: transparent image-url('more.png') no-repeat top right;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: geometricPrecision;
 	text-decoration: none;

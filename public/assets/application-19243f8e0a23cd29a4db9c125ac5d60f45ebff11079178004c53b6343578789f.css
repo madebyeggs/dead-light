@@ -3520,7 +3520,7 @@ i.icon-remove {
   display: block;
   width: 26px;
   height: 26px;
-  background-image: url(/images/close.png);
+  background-image: url(/assets/close-9adf9443cb033aadcf32a4f741344ffb9ced2f72d6ee10210616b7b2e2c433e8.png);
   background-size: 26px 26px;
   filter: alpha(opacity=50);
   opacity: .5;
@@ -5440,7 +5440,7 @@ footer {
 
   /* line 1492, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   i.icon-remove {
-    background: url(/close@2x.png) no-repeat center center;
+    background: url(/assets/close@2x-34c64a117ea9ebc831f583ed8d7a72c833729e522d519f22823f17f182d4b0f1.png) no-repeat center center;
     background-size: 26px 26px;
   }
 

@@ -217,7 +217,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 
 .parallax.no-parallax { background-size: cover!important; background-attachment: scroll!important; background-position: center!important; }
 
-.parralax-bg1 {background-image: image-url('hero2.png')}
+.parralax-bg1 {background-image: image-url('hero.png')}
 
 .title { text-align: center; }
 
@@ -240,7 +240,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 /* =Hero
 -------------------------------------------------------------- */
 
-.hero { text-align: center; background-image:url(../assets/hero.png);background-size: cover; }
+.hero { text-align: center; background-image:image-url('hero.png');background-size: cover; }
 .hero .content { padding-top: 0px; }
 
 .ticker {

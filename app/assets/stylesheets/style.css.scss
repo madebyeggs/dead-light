@@ -239,7 +239,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 /* =Hero
 -------------------------------------------------------------- */
 
-.hero { text-align: center; background-image:image-url('hero.png');background-size: cover; }
+.hero { text-align: center; background-image:image-url('hero2.png');background-size: cover; }
 .hero .content { padding-top: 0px; }
 
 .ticker {
@@ -363,7 +363,7 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 
 .projectlist a:hover { 
 	cursor: asset_url('	'), crosshair;
-	cursor: image-url('more.png') 40 40, crosshair;
+	cursor: asset_url('more.png') 40 40, crosshair;
 }
 
 .projectlist a img { width: 100%; }
@@ -459,7 +459,7 @@ i.icon-remove {
 	display: block; 
 	width: 26px; 
 	height: 26px;
-	background-image: image-url('close.png') no-repeat;
+	background: asset_url('close.png') no-repeat;
 	background-size: 26px 26px;
 	filter: alpha(opacity=50);
 	opacity: .5;
@@ -745,7 +745,7 @@ footer { width: 100%; background: #060606;}
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
-	background-image: transparent image-url('more.png') no-repeat top right;
+	background: transparent asset_url('more.png') no-repeat top right;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: geometricPrecision;
 	text-decoration: none;

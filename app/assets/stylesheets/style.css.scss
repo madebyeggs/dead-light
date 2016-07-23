@@ -1356,7 +1356,6 @@ footer { width: 100%; background: #060606;}
 /* Smaller than 960px */
 @media only screen and (max-width: 959px) {
 	.nav-button { display: block; }
-	.navigation { display: none; }
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 	.content { padding-top: 50px; } 
 	.content.padded { padding-bottom: 50px; }

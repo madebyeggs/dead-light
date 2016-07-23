@@ -4920,49 +4920,44 @@ footer {
   }
 
   /* line 1359, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
-  .navigation {
-    display: none;
-  }
-
-  /* line 1360, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .parallax {
     background-size: cover;
     background-attachment: scroll;
     background-position: top center !important;
   }
 
-  /* line 1361, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1360, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .content {
     padding-top: 50px;
   }
 
-  /* line 1362, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1361, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .content.padded {
     padding-bottom: 50px;
   }
 
-  /* line 1363, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1362, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icons .overview {
     width: 33.3333333333%;
     margin-bottom: 30px;
   }
 
-  /* line 1364, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1363, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon {
     cursor: pointer;
   }
 
-  /* line 1365, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1364, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .projectlist li {
     width: 50%;
   }
 
-  /* line 1366, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1365, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .fade, .slide, .entrance, .hatch {
     opacity: 1 !important;
   }
 
-  /* line 1367, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1366, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .ae-animation-fade, .ae-animation-slide, .ae-animation-entrance, .ae-animation-hatch {
     -webkit-animation-name: none;
     -moz-animation-name: none;
@@ -4970,60 +4965,60 @@ footer {
     animation-name: none;
   }
 
-  /* line 1368, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1367, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   #bx-prev, #bx-next {
     display: none;
   }
 
-  /* line 1369, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1368, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   #bx-pager {
     margin-top: 20px;
   }
 
-  /* line 1370, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1369, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   #bx-pager li {
     width: 50%;
     margin-top: 20px;
   }
 
-  /* line 1371, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1370, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .social-links {
     margin-top: 30px;
   }
 
-  /* line 1372, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1371, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   #nextProject, #prevProject {
     display: none !important;
   }
 
-  /* line 1373, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1372, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   #respond {
     margin-left: 0px;
   }
 
-  /* line 1374, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1373, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   #vegas-prev, #vegas-next {
     display: none;
   }
 
-  /* line 1375, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1374, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .tooltip {
     cursor: pointer;
   }
 
-  /* line 1376, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1375, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .hero-video {
     background: url(/visia-video-poster.jpg) no-repeat;
     background-size: cover;
     background-position: top center;
   }
 
-  /* line 1377, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1376, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   #big-video-wrap {
     display: none;
   }
 
-  /* line 1378, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1377, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .projectlist li {
     width: 100%;
     margin-left: 0%;
@@ -5031,226 +5026,226 @@ footer {
 }
 /* Tablet Portrait Size */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 1383, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1382, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .yearS {
     display: none;
   }
 
-  /* line 1384, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1383, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .monthS {
     width: 16%;
   }
 
-  /* line 1385, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1384, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .locationS {
     width: 34%;
   }
 
-  /* line 1386, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1385, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .artistS {
     width: 44%;
   }
 
-  /* line 1387, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1386, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .ticket {
     width: 9%;
   }
 
-  /* line 1388, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1387, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .ticket img {
     max-width: 18px;
   }
 
-  /* line 1389, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1388, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .showTable {
     margin-left: 10px;
   }
 
-  /* line 1390, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1389, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .showTable {
     width: 100%;
     margin-top: 6px;
     margin-left: 0%;
   }
 
-  /* line 1395, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1394, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   h2 {
     font-size: 2.4em !important;
   }
 }
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
-  /* line 1401, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1400, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icons .overview {
     width: 50%;
   }
 
-  /* line 1402, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1401, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .team-list {
     padding: 30px 0px 0px;
   }
 
-  /* line 1403, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1402, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .team-member {
     padding-bottom: 25px;
   }
 
-  /* line 1404, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1403, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   #respond {
     padding-bottom: 50px;
     border-bottom: 2px solid #e9e9e9;
   }
 
-  /* line 1405, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1404, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .filtering li {
     margin-bottom: 20px;
   }
 
-  /* line 1406, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1405, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .value {
     padding-top: 35px;
   }
 
-  /* line 1407, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1406, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .subscribe input.submit, .subscribe input.text {
     width: 100%;
     margin-left: 0;
   }
 
-  /* line 1408, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1407, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .show {
     font-size: 17px;
   }
 
-  /* line 1409, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1408, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .yearS {
     display: none;
   }
 
-  /* line 1410, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1409, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .monthS {
     width: 4%;
   }
 
-  /* line 1411, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1410, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .locationS {
     width: 20%;
   }
 
-  /* line 1412, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1411, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .venueS {
     width: 40%;
   }
 
-  /* line 1413, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1412, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .artistS {
     width: 31%;
   }
 
-  /* line 1414, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1413, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .ticket {
     width: 9%;
   }
 
-  /* line 1415, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1414, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .ticket img {
     max-width: 25px;
   }
 
-  /* line 1416, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1415, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .showTable {
     margin-left: 10px;
   }
 
-  /* line 1417, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1416, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .showTable {
     width: 100%;
     margin-top: 6px;
     margin-left: 0%;
   }
 
-  /* line 1422, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1421, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   h2 {
     font-size: 2.4em !important;
   }
 }
 /* Mobile Landscape Size */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1428, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1427, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .project-info {
     border-bottom: none;
   }
 
-  /* line 1429, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1428, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .tooltip {
     width: 150%;
     left: 5%;
     margin-left: 0;
   }
 
-  /* line 1430, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1429, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .pull-left .tooltip {
     left: -55%;
   }
 
-  /* line 1431, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1430, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .show {
     font-size: 17px;
   }
 
-  /* line 1432, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1431, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .yearS {
     display: none;
   }
 
-  /* line 1433, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1432, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .venueS {
     display: none;
   }
 
-  /* line 1434, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1433, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .monthS {
     width: 16%;
   }
 
-  /* line 1435, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1434, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .locationS {
     width: 34%;
   }
 
-  /* line 1436, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1435, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .artistS {
     width: 44%;
   }
 
-  /* line 1437, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1436, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .ticket {
     width: 9%;
   }
 
-  /* line 1438, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1437, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .ticket img {
     max-width: 25px;
   }
 
-  /* line 1439, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1438, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .showTable {
     margin-left: 10px;
   }
 
-  /* line 1440, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1439, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .showTable {
     width: 100%;
     margin-top: 6px;
     margin-left: 0%;
   }
 
-  /* line 1445, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1444, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   h2 {
     font-size: 24px !important;
   }
 
-  /* line 1446, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1445, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .closeRelease {
     width: 26px;
     position: absolute;
@@ -5260,97 +5255,97 @@ footer {
 }
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
-  /* line 1453, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1452, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .call-to-action li {
     margin-right: 0px;
     width: 100%;
   }
 
-  /* line 1454, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1453, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .projectlist li {
     width: 100%;
   }
 
-  /* line 1455, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1454, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   #bx-pager li {
     width: 100%;
   }
 
-  /* line 1456, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1455, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .project-info {
     border-bottom: none;
   }
 
-  /* line 1457, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1456, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .tooltip {
     width: 180%;
     left: 5%;
     margin-left: 0;
   }
 
-  /* line 1458, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1457, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .pull-left .tooltip {
     left: -85%;
   }
 
-  /* line 1459, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1458, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .show {
     font-size: 13px;
   }
 
-  /* line 1460, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1459, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .yearS {
     display: none;
   }
 
-  /* line 1461, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1460, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .venueS {
     display: none;
   }
 
-  /* line 1462, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1461, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .monthS {
     width: 16%;
   }
 
-  /* line 1463, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1462, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .locationS {
     width: 34%;
   }
 
-  /* line 1464, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1463, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .artistS {
     width: 44%;
   }
 
-  /* line 1465, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1464, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .ticket {
     width: 9%;
   }
 
-  /* line 1466, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1465, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .ticket img {
     max-width: 18px;
   }
 
-  /* line 1467, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1466, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .showTable {
     margin-left: 10px;
   }
 
-  /* line 1468, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1467, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .showTable {
     width: 100%;
     margin-top: 6px;
     margin-left: 0%;
   }
 
-  /* line 1473, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1472, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   h2 {
     font-size: 20px !important;
   }
 
-  /* line 1474, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1473, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .closeRelease {
     width: 26px;
     position: absolute;
@@ -5360,169 +5355,169 @@ footer {
 }
 /* Targets Retina Enabled Devices */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 1488, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1487, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.right {
     background: url(/right@2x.png) no-repeat center center;
     background-size: 26px 26px;
   }
 
-  /* line 1489, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1488, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.ux {
     background: url(/ux@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1490, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1489, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.design {
     background: url(/design@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1491, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1490, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.seo {
     background: url(/seo@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1492, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1491, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.social {
     background: url(/social@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1493, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1492, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.tech {
     background: url(/tech@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1494, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1493, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.commerce {
     background: url(/commerce@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1495, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1494, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.config {
     background: url(/config@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1496, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1495, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.heart {
     background: url(/heart@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1497, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1496, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.coffee {
     background: url(/coffee@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1498, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1497, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.portfolio {
     background: url(/portfolio@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1499, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1498, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.plane {
     background: url(/plane@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1500, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1499, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .icon.calculator {
     background: url(/calculator@2x.png) no-repeat top;
     background-size: 64px 128px;
   }
 
-  /* line 1501, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1500, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .social-icon.small.facebook {
     background: url(/facebook-small@2x.png) no-repeat center center;
     background-size: 26px 26px;
   }
 
-  /* line 1502, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1501, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .social-icon.small.twitter {
     background: url(/twitter-small@2x.png) no-repeat center center;
     background-size: 26px 26px;
   }
 
-  /* line 1503, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1502, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .social-icon.small.google {
     background: url(/google-small@2x.png) no-repeat center center;
     background-size: 26px 26px;
   }
 
-  /* line 1504, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1503, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .social-icon.small.behance {
     background: url(/behance-small@2x.png) no-repeat center center;
     background-size: 26px 26px;
   }
 
-  /* line 1505, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1504, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .social-icon.small.linkedin {
     background: url(/linkedin-small@2x.png) no-repeat center center;
     background-size: 26px 26px;
   }
 
-  /* line 1506, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1505, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   i.icon-remove {
     background: url(/assets/close@2x-34c64a117ea9ebc831f583ed8d7a72c833729e522d519f22823f17f182d4b0f1.png) no-repeat center center;
     background-size: 26px 26px;
   }
 
-  /* line 1507, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1506, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .bx-pager-link {
     background: url(/pager@2x.png) no-repeat top center;
     background-size: 12px 24px;
   }
 
-  /* line 1508, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1507, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .bx-pager-link.active {
     background: url(/pager-active@2x.png) no-repeat top center;
     background-size: 12px 12px;
   }
 
-  /* line 1509, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1508, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .gallery-next .bx-next {
     background: #060606 url(/next@2x.png) no-repeat;
     background-size: 22px 22px;
   }
 
-  /* line 1510, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1509, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .gallery-prev .bx-prev {
     background: #060606 url(/prev@2x.png) no-repeat;
     background-size: 22px 22px;
   }
 
-  /* line 1511, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1510, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .search-submit {
     background: #fff url(/search@2x.png) no-repeat center center;
     background-size: 16px 16px;
   }
 
-  /* line 1512, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1511, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .notification.success p {
     background: url(/tick@2x.png) no-repeat;
     background-size: 26px 26px;
   }
 
-  /* line 1513, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1512, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .notification.error p {
     background: url(/cross@2x.png) no-repeat;
     background-size: 26px 26px;
   }
 
-  /* line 1514, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1513, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .project-gallery-next .bx-next {
     background: #fff url(/project-gallery-next@2x.png) no-repeat center center;
     background-size: 22px 22px;
   }
 
-  /* line 1515, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
+  /* line 1514, /Volumes/Other/MadeByEggs/Clients/DeadLight/app/assets/stylesheets/style.css.scss */
   .project-gallery-prev .bx-prev {
     background: #fff url(/project-gallery-prev@2x.png) no-repeat center center;
     background-size: 22px 22px;

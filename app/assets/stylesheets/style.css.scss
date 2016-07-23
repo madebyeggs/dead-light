@@ -1424,6 +1424,7 @@ footer { width: 100%; background: #060606;}
 
 /* Mobile Landscape Size */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	.navigation {margin-top:40px!important;}
 	.project-info { border-bottom: none; }
 	.tooltip { width: 150%; left: 5%; margin-left: 0; }
 	.pull-left .tooltip { left: -55%;}
@@ -1449,6 +1450,7 @@ footer { width: 100%; background: #060606;}
 
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
+	.navigation {margin-top:40px!important;}
 	.call-to-action li { margin-right: 0px; width: 100%; }
 	.projectlist li { width: 100%; }
 	#bx-pager li { width: 100%; }

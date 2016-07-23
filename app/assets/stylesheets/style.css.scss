@@ -230,9 +230,18 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 	margin: 0 auto;
 }
 
+.border2 {
+	display: block;
+	width: 80px;
+	height: 2px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
 .dark .border { background: #fff; }
 .navie {position:absolute;}
-.navigation a {color:#ffffff;text-decoration:none;font-size:2em;letter-spacing:0.06em;font-family: 'Lato', sans-serif!important;}
+.navigation a {color:#ffffff;text-decoration:none;font-size:2em;letter-spacing:0em;font-family: 'Open Sans', sans-serif!important;font-weight:800;font-style:italic;text-transform:none!important;}
+h3 {color:#ffffff;text-decoration:none;font-size:2em;letter-spacing:0em;font-family: 'Open Sans', sans-serif!important;font-weight:400;font-style:none;margin-top:20px;}
 .navigation a:hover {text-decoration:none;color:#ffffff;}
 .navigation {position:absolute;width:100%!important;margin-top:240px;}
 
@@ -364,6 +373,11 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 .projectlist a:hover { 
 	cursor: assest_url('	'), crosshair;
 	cursor: asset_url('more.png') 40 40, crosshair;
+}
+
+.navigation a:hover { 
+	cursor: assest_url('	'), crosshair;
+	cursor: asset_url('down.png') 40 40, crosshair;
 }
 
 .projectlist a img { width: 100%; }

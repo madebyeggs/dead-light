@@ -15,7 +15,6 @@
 	<![endif]-->
 
 	<!-- jQuery -->
-	<%= javascript_include_tag "application" %>
   	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	<%= csrf_meta_tag %>
 
@@ -42,8 +41,6 @@
 		<%= yield %>
 		<%= render 'layouts/footer' %>
 	</div>
-	
-	<%= javascript_include_tag "visia" %>
 
 </body>
 

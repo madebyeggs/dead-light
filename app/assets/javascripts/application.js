@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require twitter/bootstrap/modal
 //= require mustache
 //= require retina
 //= require smoothscroll
@@ -29,6 +30,7 @@
 //= require jquery.fitvids
 //= require main
 //= require shortcodes
+//= require owl.carousel
 //= require_tree ../../templates
 
 jQuery(document).ready(function() {
@@ -66,6 +68,33 @@ jQuery(document).ready(function() {
 	
 	jQuery('.closebtn').click(function() {
 	    document.getElementById("myNav").style.height = "0%";
+	});
+	
+	
+	
+	$('#openBtn2').click(function(){
+		$('#imagemodal2').modal({show:true})
+	});
+	$('#openBtn3').click(function(){
+		$('#imagemodal3').modal({show:true})
+	});
+	$('#openBtn4').click(function(){
+		$('#imagemodal4').modal({show:true})
+	});
+	$('#openBtn5').click(function(){
+		$('#imagemodal5').modal({show:true})
+	});
+	$('#openBtn6').click(function(){
+		$('#imagemodal6').modal({show:true})
+	});
+	$('#openBtn7').click(function(){
+		$('#imagemodal7').modal({show:true})
+	});
+	
+	jQuery("#owl").owlCarousel({
+		navigation : false,
+		singleItem : false,
+		pagination : false
 	});
 	
 });

@@ -471,6 +471,14 @@ h3 {color:#ffffff;text-decoration:none;font-size:1.2em;letter-spacing:0em;font-f
 
 .visible { display: block; }
 
+#owl .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul#portfolio-grid {margin-bottom:0px;}
+
 
 /* =Portfolio
 -------------------------------------------------------------- */
@@ -478,7 +486,7 @@ h3 {color:#ffffff;text-decoration:none;font-size:1.2em;letter-spacing:0em;font-f
 .portfolio { width: 100%; margin-bottom:0px!important; }
 .projectlist { margin-top: 50px; background: transparent; }
 .projectlist li { width: 40%;float: left; margin-left:30% }
-.projectlist a { display: block; padding-bottom: 85px; position: relative;color: #202326;text-transform:none;font-family:"Lato";font-weight:300; }
+.projectlist a { display: block; padding-bottom: 0px; position: relative;color: #202326;text-transform:none;font-family:"Lato";font-weight:300; }
 
 .projectlist a:hover { 
 	cursor: assest_url('	'), crosshair;
@@ -1427,6 +1435,12 @@ footer { width: 100%; background: #060606;}
 
 .contentTitle {margin-top:30px;}
 .videos {margin-top:30px;padding-bottom:10px;border-bottom:1px solid white;}
+
+.modal {background-color:rgba(0,0,0,0.8)!important;}
+.modal-dialog {width:64%;margin:20px 18%;}
+.modal-body {background-color:rgba(0,0,0,1);}
+.modal-body img {max-width:100%;}
+.close {background-image:none;color:#ffffff;}
 
 
 /* =Media

@@ -15,12 +15,12 @@
 				</div>
 			<% end %>	
 			<%= form_for(@release) do |f| %>
-				<%= f.label :artist, class: "formText" %><br/>
+				<%= f.label :release_date, class: "formText" %><br/>
     			<%= f.text_field :artist, class: 'email text-area' %><br /><br />
 				<%= f.label :title, class: "formText" %><br/>
 	    		<%= f.text_field :title, class: 'email text-area' %><br /><br />
 			 	<%= f.label :packshot, class: "formText"  %><br />
-			 	<%= f.file_field :packshot, class: 'email text-area'  %><br /><br />
+			 	<%= f.file_field :packshot, class: 'email text-area file-field'  %><br /><br />
 				<%= f.label :description, class: "formText" %><br />
 	    		<%= f.text_area :description, class: 'email text-areaArea' %><br /><br />
 				<%= f.label :URL, class: "formText" %><br />

@@ -20,7 +20,7 @@ a:hover { color: #202326; }
 .tabs ul li.active a {border-top: 2px solid #ee3b16;} 
 
 /* Content */
-.parallax.colored { background-color: #ee3b16; }
+.parallax.colored { background-color: #000000; }
 .list-dot { background: #ee3b16; }
 
 .projectlist a:hover .projectinfo { 

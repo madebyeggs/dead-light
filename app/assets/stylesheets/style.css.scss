@@ -240,8 +240,10 @@ a, a:visited { font-weight: 400; text-decoration: none; }
 
 .dark .border { background: #fff; }
 .navie {position:absolute;}
-.navigation a {color:#ffffff;text-decoration:none;font-size:2em;letter-spacing:0em;font-family: 'Open Sans', sans-serif!important;font-weight:800;font-style:italic;text-transform:none!important;}
-h3 {color:#ffffff;text-decoration:none;font-size:2em;letter-spacing:0em;font-family: 'Open Sans', sans-serif!important;font-weight:400;font-style:none;margin-top:20px;}
+.navigation a {color:#ffffff;text-decoration:none;font-size:2em;letter-spacing:0.1em;font-family: 'Lato', sans-serif!important;font-weight:200;font-style:none;text-transform:uppercase!important;}
+.logo {width:30%;margin-bottom:-20px;}
+.logo img {max-width:100%;}
+h3 {color:#ffffff;text-decoration:none;font-size:1.2em;letter-spacing:0em;font-family: 'Open Sans', sans-serif!important;font-weight:400;font-style:none;margin-top:20px;}
 .navigation a:hover {text-decoration:none;color:#ffffff;}
 .navigation {position:absolute;width:100%!important;margin-top:240px;}
 
@@ -1350,6 +1352,7 @@ footer { width: 100%; background: #060606;}
 
 /* Smaller than 960px */
 @media only screen and (max-width: 959px) {
+	.logo {width:60%;}
 	.nav-button { display: block; }
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 	.content { padding-top: 50px; } 
@@ -1392,6 +1395,7 @@ footer { width: 100%; background: #060606;}
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+	.logo {width:80%;margin-bottom:-10px;}
 	.icons .overview { width: 50%; }
 	.team-list { padding: 30px 0px 0px; }
 	.team-member { padding-bottom: 25px; }

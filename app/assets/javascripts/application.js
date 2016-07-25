@@ -36,17 +36,6 @@ jQuery(document).ready(function() {
 	//// Preloader, hide all page content until window.load
 	jQuery('.loadingGif').show();
 	
-	//// Launch all external links in _blank windows!!
-	jQuery("a").click(function() {
-		link_host = this.href.split("/")[2];
-	    document_host = document.location.href.split("/")[2];
-
-	    if (link_host != document_host) {
-	      window.open(this.href);
-	      return false;
-	    }
-	});
-	
 	//// Detect click from releases view and generate correct release display
 	jQuery(".releaseClick").click(function() {
 		
@@ -73,6 +62,10 @@ jQuery(document).ready(function() {
 			jQuery("#releaseShowWrapper").hide();
 			jQuery("#releaseShowContent").empty();
 		});
+	});
+	
+	jQuery('.closebtn').click(function() {
+	    document.getElementById("myNav").style.height = "0%";
 	});
 	
 });

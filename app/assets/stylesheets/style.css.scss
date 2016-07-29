@@ -1477,7 +1477,7 @@ footer { width: 100%; background: #060606;}
 /* Smaller than 960px */
 @media only screen and (max-width: 959px) {
 	.modal-dialog {width:100%;margin:20px 0%;}
-	.logo {width:60%;}
+	.logo {width:50%;}
 	.nav-button { display: block; }
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 	.content { padding-top: 50px; } 
@@ -1548,6 +1548,9 @@ footer { width: 100%; background: #060606;}
 
 /* Mobile Landscape Size */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	.logo {width:60%;margin-bottom:-20px;}
+	.down {bottom:20px;}
+	.info {top:20px;}
 	.navigation {margin-top:40px!important;}
 	.project-info { border-bottom: none; }
 	.tooltip { width: 150%; left: 5%; margin-left: 0; }

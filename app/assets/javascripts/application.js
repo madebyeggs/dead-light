@@ -41,28 +41,32 @@ jQuery(document).ready(function() {
 	//// Detect click from releases view and generate correct release display
 	jQuery(".releaseClick").click(function() {
 		
-		var id = jQuery(this).prev('.modal-object-id').val();
-		var releasesPosition = jQuery("#section2").scrollTop();
+		///var id = jQuery(this).prev('.modal-object-id').val();
+		///var releasesPosition = jQuery("#section2").scrollTop();
 		
-		console.log(releasesPosition);
+		///console.log(releasesPosition);
 		
-		jQuery.ajax({
-			dataType: "json",
-			url: "./releases/release_show_via_ajax_call",
-			data: {id: id},
-			success: function(data) {
-				var release_content = SMT['releaseshow'](data);
-				jQuery(window).scrollTo('#section2', {duration:200, offset:45});
-				jQuery('#releaseShowWrapper').fadeIn(750);
-				jQuery('#releaseShowContent').empty().append(release_content).fadeIn(750);
-			}
-		});
+		///jQuery.ajax({
+		///	dataType: "json",
+		///	url: "./releases/release_show_via_ajax_call",
+		///	data: {id: id},
+		///	success: function(data) {
+		///		var release_content = SMT['releaseshow'](data);
+		///		jQuery(window).scrollTo('#section2', {duration:200, offset:45});
+		///		jQuery('#releaseShowWrapper').fadeIn(750);
+		///		jQuery('#releaseShowContent').empty().append(release_content).fadeIn(750);
+		///	}
+		///});
+		jQuery(window).scrollTo('#section2', {duration:200, offset:45});
+		jQuery('#releaseShowWrapper').fadeIn(750);
+		jQuery('#portfolio-grid').hide();
 	});
 	//// Close release display on icon click
 	jQuery('#removeRelease').click(function() {
 		jQuery('#releaseShowWrapper').fadeOut(500, function(){
 			jQuery("#releaseShowWrapper").hide();
-			jQuery("#releaseShowContent").empty();
+			jQuery('#portfolio-grid').show();
+		///	jQuery("#releaseShowContent").empty();
 		});
 	});
 	
@@ -70,8 +74,9 @@ jQuery(document).ready(function() {
 	    document.getElementById("myNav").style.height = "0%";
 	});
 	
-	
-	
+	$('#openBtn1').click(function(){
+		$('#imagemodal1').modal({show:true})
+	});
 	$('#openBtn2').click(function(){
 		$('#imagemodal2').modal({show:true})
 	});

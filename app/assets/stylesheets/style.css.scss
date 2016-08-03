@@ -35,6 +35,8 @@ Author URI: http://www.aetherthemes.com
   	-webkit-animation:bounce 0.75s 4;
 }
 
+.paddingBottom {margin-bottom:140px;}
+
 @-webkit-keyframes bounce {
   0%       { bottom:50px; }
   25%, 75% { bottom:65px; }
@@ -1642,3 +1644,5 @@ only screen and (                min-resolution: 2dppx) {
 	.project-gallery-next .bx-next  {  background: #fff asset_url('project-gallery-next@2x.png') no-repeat center center; background-size: 22px 22px; }
 	.project-gallery-prev .bx-prev  {  background: #fff asset_url('project-gallery-prev@2x.png') no-repeat center center; background-size: 22px 22px; }
 }
+
+.video {width:100%;margin-top:20px;}

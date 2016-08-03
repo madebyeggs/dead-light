@@ -1,14 +1,13 @@
 <!-- Begin Portfolio -->
 <section id="section2" class="portfolio clearfix">
 
-	<!-- Title -->
+
 	<div class="content container">
 		<div class="title grid-full">
 			<h2 id="releaseHeader">Dead Light</h2>
 			<span class="border"></span>
 		</div>
 	</div>
-	
 	<div id="releaseShowWrapper" style="display:none;">
 	
 		<div class="closeRelease grid-full">
@@ -17,11 +16,28 @@
 		<div class="ajax-content clearfix"></div>
 	
 		<div id="releaseShowContent">
-		</div>
-	
-	</div>
+			<div id="ajaxpage" class="container">
 
-	<!-- Thumbnails -->
+				<div class="grid-full video">
+					<iframe src="https://player.vimeo.com/video/177441709?title=0&byline=0&portrait=0" width="640%" height="360" frameborder="0" 
+					webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+				<div class="project-title grid-full">
+				</div>
+
+				<div class="clearfix">
+					<div class="grid-full description">
+						<p>Dead Light’s sound is characterised by distant and reflective, yet intimate and emotive piano motifs coupled with a plethora 
+							of analogue artefacts ranging from tape delays (via daisy chained reel to reel machines), homemade synthesisers, old Russian 
+							microphones, 1950s tube pre-amps, contact mics and hydrophones.11 tracks in total, the Dead Light LP is an exploration of 
+							ambivalence, a sonic ethnography that contemplates a personal narrative of transition and identity.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<ul id="portfolio-grid" class="projectlist clearfix">
 		<% @releases.each do |r| %>
 			<li class="project">
@@ -39,16 +55,24 @@
 	</ul>
 	
 	<div id="owl" class="owl-carousel owl-theme">
-
+		<div id="openBtn1" class="item"><%= image_tag('1.jpg') %></div>
 		<div id="openBtn2" class="item"><%= image_tag('2.jpg') %></div>
 		<div id="openBtn3" class="item"><%= image_tag('3.jpg') %></div>
 		<div id="openBtn4" class="item"><%= image_tag('4.jpg') %></div>
 		<div id="openBtn5" class="item"><%= image_tag('5.jpg') %></div>
 		<div id="openBtn6" class="item"><%= image_tag('6.jpg') %></div>
 		<div id="openBtn7" class="item"><%= image_tag('7.jpg') %></div>
-
 	</div>
-	
+	<div class="modal fade" id="imagemodal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">              
+	      <div class="modal-body">
+	      	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">X</span></button>
+	        <%= image_tag('1.jpg') %>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 	<div class="modal fade" id="imagemodal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	  <div class="modal-dialog">
 	    <div class="modal-content">              

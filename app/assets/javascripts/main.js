@@ -252,6 +252,7 @@ function initializeVisia() {
 			
 	//RESPONSIVE VIDEO
 	jQuery(".container").fitVids();
+	jQuery(".video").fitVids();
 	
 	//BLOG SLIDER
 	jQuery(".gallery").bxSlider({
@@ -404,7 +405,8 @@ function initializePortfolio() {
 				    hideLoader();  
 				});
 
-				jQuery(".container").fitVids();								  
+				jQuery(".container").fitVids();	
+				jQuery(".video").fitVids();								  
 
 				}
 

@@ -431,6 +431,14 @@ function initializePortfolio() {
 					showProject();					
 			});			 
 	}
+	
+	jQuery('.projectinfo').mouseenter(function(){
+		jQuery('.meta').addClass('show');
+	});
+	
+	jQuery('.projectinfo').mouseleave(function(){
+		jQuery('.meta').removeClass('show');
+	});
 
 	function showProject(){
 

@@ -1489,14 +1489,6 @@ footer { width: 100%; background: #060606;}
     }
 }
 
-@media (max-width: 580px) {
-    .fullscreen-bg, .hero {background:asset_url('hero.jpg');background-size: cover;}
-
-    .fullscreen-bg__video {
-        display: none;
-    }
-}
-
 /* =Media
 -------------------------------------------------------------- */
 
@@ -1555,6 +1547,7 @@ footer { width: 100%; background: #060606;}
 
 /* Tablet Portrait Size */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+	#releaseShowContent {margin-top:15px;}
 	.description {margin-top:-220px!important;}
 	.yearS{display:none;}
 	.monthS{width:16%;}
@@ -1574,6 +1567,7 @@ footer { width: 100%; background: #060606;}
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+	#releaseShowContent {margin-top:15px;}
 	.description {margin-top:-220px!important;}
 	.logo {width:80%;margin-bottom:-10px;}
 	.icons .overview { width: 50%; }

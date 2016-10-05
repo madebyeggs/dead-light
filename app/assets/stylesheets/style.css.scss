@@ -1489,10 +1489,8 @@ footer { width: 100%; background: #060606;}
     }
 }
 
-@media (max-width: 480px) {
-    .fullscreen-bg {
-        background: image-url('hero.png') center center / cover no-repeat;
-    }
+@media (max-width: 580px) {
+    .fullscreen-bg, .hero {background:asset_url('hero.jpg');background-size: cover;}
 
     .fullscreen-bg__video {
         display: none;

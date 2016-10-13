@@ -61,6 +61,9 @@ jQuery(document).ready(function() {
 		jQuery('#releaseShowWrapper').fadeIn(750);
 		jQuery('#portfolio-grid').hide();
 	});
+	jQuery(".rightAlign").click(function(){
+		jQuery(window).scrollTo('#section2', {duration:200, offset:45});
+	});
 	//// Close release display on icon click
 	jQuery('#removeRelease').click(function() {
 		jQuery('#releaseShowWrapper').fadeOut(500, function(){
@@ -72,6 +75,10 @@ jQuery(document).ready(function() {
 	
 	jQuery('.closebtn').click(function() {
 	    document.getElementById("myNav").style.height = "0%";
+	});
+	
+	jQuery('.closebtn2').click(function() {
+	    document.getElementById("myNav2").style.height = "0%";
 	});
 	
 	$('#openBtn1').click(function(){

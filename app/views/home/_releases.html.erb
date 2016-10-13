@@ -16,42 +16,55 @@
 	
 		<div id="releaseShowContent">
 			<div id="ajaxpage" class="container">
-
-				<div class="col-md-6 releaseInfo">
-					<%= image_tag(@release.packshot, class: "image") %><br/><br/>
-					<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/275254848&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp;visual=false&amp;show_artwork=false"></iframe>
-				</div>
-				<div class="project-title grid-full">
-				</div>
-
-				<div class="clearfix">
-					<div class="col-md-6 description">
-						<p>
-							Vinyl, CD, Download<br/><br/>
-							
-							Dead Light’s sound is characterised by distant and reflective, yet intimate and emotive piano motifs coupled with a plethora of analogue artefacts ranging from loops constructed on cheap old tape machines, tape delays (via daisy chained reel to reel machines), homemade synthesisers, contact mics and hydrophones.<br/><br/>
-
-							11 tracks in total, the Dead Light LP is an exploration of change, a sonic ethnography that contemplates a personal narrative of transition and identity.<br/><br/>
-
-							Dead Light is released on vinyl, CD and digital download on October 14th, 2016<br/><br/>
-
-							The tracklisting is as follows:
-
+				<div class="col-md-12 releaseShow">
+					<div id="myNav2" class="overlay overlay2">
+						<a href="#" class="closebtn closebtn2" onclick="return false">×</a>
+					  	<div class="overlay-content overlay-content2">
 							<ul>
-								<li>Blooms</li>
-								<li>Slow Slowly</li>
-								<li>The Ballad of a Small Player</li>
-								<li>Falling In</li>
-								<li>Sleeper</li>
-								<li>In Red and Red</li>
-								<li>Trills</li>
-								<li>Broods and Waits</li>
-								<li>Little Blue</li>
-								<li>Pale Fire</li>
-								<li>Outpour</li>
+								<li><a href="https://www.roughtrade.com/music/dead-light" target="_blank">Rough Trade</a></li>
+								<li><a href="https://boomkat.com/products/dead-light" target="_blank">Boomkat</a></li>
+								<li><a href="https://www.normanrecords.com/records/160818-dead-light-dead-light" target="_blank">Norman Records</a></li>
+								<li><a href="https://itunes.apple.com/gb/album/dead-light/id1138056150" target="_blank">iTunes</a></li>
+								<li><a href="https://www.amazon.co.uk/Dead-Light/dp/B01JJAEGY2/ref=sr_1_1?s=dmusic&ie=UTF8&qid=1476375993&sr=1-1-mp3-albums-bar-strip-0&keywords=Dead+Light" target="_blank">Amazon</a></li>	
 							</ul>
-						</p>
+					  	</div>
 					</div>
+					<script>
+						function openNav2() {
+						    document.getElementById("myNav2").style.height = "100%";
+						}
+					</script>
+					<div class="col-md-6 releaseInfo">
+						<%= image_tag(@release.packshot, class: "image") %><br/><br/>
+						<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/275254848&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp;visual=false&amp;show_artwork=false"></iframe>
+					</div>
+					<div class="col-md-6 description">
+							<p>
+								Vinyl, CD, Download<br/><br/>
+							
+								Dead Light’s sound is characterised by distant and reflective, yet intimate and emotive piano motifs coupled with a plethora of analogue artefacts ranging from loops constructed on cheap old tape machines, tape delays (via daisy chained reel to reel machines), homemade synthesisers, contact mics and hydrophones.<br/><br/>
+
+								11 tracks in total, the Dead Light LP is an exploration of change, a sonic ethnography that contemplates a personal narrative of transition and identity.<br/><br/>
+
+								Dead Light is released on vinyl, CD and digital download on October 14th, 2016<br/><br/>
+
+								The tracklisting is as follows:
+								<ul>
+									<li>Blooms</li>
+									<li>Slow Slowly</li>
+									<li>The Ballad of a Small Player</li>
+									<li>Falling In</li>
+									<li>Sleeper</li>
+									<li>In Red and Red</li>
+									<li>Trills</li>
+									<li>Broods and Waits</li>
+									<li>Little Blue</li>
+									<li>Pale Fire</li>
+									<li>Outpour</li>
+								</ul><br/><br/>
+								<div class="rightAlign button" onclick="openNav2()">BUY NOW</div>
+							</p>
+						</div>
 				</div>
 			</div>
 		</div>
@@ -153,7 +166,6 @@
 	    </div>
 	  </div>
 	</div>
-
 
 </section>
 <!-- End Portfolio -->

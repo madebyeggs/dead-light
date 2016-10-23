@@ -17,6 +17,7 @@ gem 'paperclip'
 gem 'aws-sdk', '~> 2.3'
 gem 'sass-rails'
 gem 'owlcarousel-rails'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug'

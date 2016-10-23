@@ -1,5 +1,5 @@
 class ReleasesController < ApplicationController
-  #before_filter :authenticate_user!, except: [:release_show_via_ajax_call]
+  before_filter :authenticate_user!, except: [:release_show_via_ajax_call]
 
   def new
     @release = Release.new

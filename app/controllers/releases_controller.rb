@@ -1,5 +1,5 @@
 class ReleasesController < ApplicationController
-  before_filter :authenticate_user!, except: [:release_show_via_ajax_call]
+  before_filter :authenticate_user!, except: [:release_show_via_ajax_call, :show]
 
   def new
     @release = Release.new
@@ -44,6 +44,7 @@ class ReleasesController < ApplicationController
   end
   
   def show
+    bring_in_models
     @release = Release.find(params[:id])
     render :show, flush: true
   end
@@ -66,7 +67,7 @@ class ReleasesController < ApplicationController
   end
   
   def release_params
-    params.require(:release).permit(:release_id, :artist, :title, :description, :packshot, :url, :review1, :review2)
+    params.require(:release).permit(:release_id, :artist, :title, :description, :packshot, :url, :review1, :review2, :tracklist)
   end
   
 end

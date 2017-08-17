@@ -1,41 +1,24 @@
-<!-- Begin Navigation -->
-<% if controller.controller_name == 'home' && controller.action_name == 'index' %>
-	<nav class="wrapper">
-		<div id='overlay2'></div>
-		<div class="content container navigation">
-			<h2 id="releaseHeader"><%= image_tag('logo.png', class: "logo") %></h2>
-			<span class="border2"></span>
-		</div>
-	
-		<div id="myNav" class="overlay">
-		  <a href="#" class="closebtn" onclick="return false">×</a>
-		  <div class="overlay-content">
-			<p>Dead Light was created after Anna Rose Carter and Ed Hamilton moved from London to a quiet, remote space in the countryside. The migration out of the sprawling metropolis to their new rural refuge was a transition that significantly impacted them both; the reality of this new setting an apposition between the serene nature of their new life, and the dislocation from the lives, people and places that they left behind; two conflicting sentiments that co-exist in a somehow beautiful, bitter-sweet relationship. Dead Light is the tension between these two states, a textured and imperfect dream world.</p><br/>
-		  </div>
-		</div>
-		
-		<div class="circleContainer">
-	
-			<div class="info" onclick="openNav()"><i class="fa fa-info-circle"></i></div>
-			<div class="down"><a href="#section2"><i class="fa fa-angle-double-down"></i></a></div>
-			
-		</div>
+<header role="banner">
+	<button type="button" class="drawer-toggle drawer-hamburger">
+    	<span class="sr-only">toggle navigation</span>
+      	<span class="drawer-hamburger-icon"></span>
+    </button>
 
-	
-		<script>
-		function openNav() {
-		    document.getElementById("myNav").style.height = "100%";
-		}
-		</script>
-		
-		<% if user_signed_in? %>
-			<div class="userInfo">
-				<div>{ Logged in as <strong><%= current_user.email %></strong> }</div>
-				<%= link_to 'Edit', edit_user_registration_path, class: "clearFixer" %> | 
-				<%= link_to 'Logout', destroy_user_session_path, :method => :delete, class: "clearFixer" %> |
-				<%= link_to 'CMS', root_path %></div>
-			</div>
-		<% end %>
-	
+    <nav class="drawer-nav" role="navigation">
+    	<ul class="drawer-menu">
+       		<li><%= link_to 'Dead Light', root_path, :class => "drawer-brand" %></li>
+			<li><%= link_to 'News', root_path, :class => "drawer-menu-item" %></li>
+        	<li class="drawer-dropdown">
+				<a class="drawer-menu-item" data-target="#" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
+		        	Releases <span class="drawer-caret"></span>
+		        </a>
+          		<ul class="drawer-dropdown-menu">
+					<% @releases.each do |r| %>
+						<li><%= link_to r.title, release_path(r), :class => "drawer-dropdown-menu-item" %></li>
+					<% end %>
+          		</ul>
+        	</li>
+        	</li>
+      	</ul>
 	</nav>
-<% end %>
+</header>

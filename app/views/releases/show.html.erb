@@ -1,0 +1,68 @@
+<div class="top-margin sm-0 md-0">&nbsp;</div>
+<section id="dynamic_content" class="fading">
+	<!-- tracklisting & pack shot -->
+	<div class="band pad-bottom fading" id="section_tracklist" data-releaseid="02">
+		<div class="row release-row">
+			<!-- desktop-only content -->
+			<div class="desktop-content">
+				<div class="desktop-info">
+					<div class="pad-space-right">
+						<%= raw(@release.description.html_safe) %>
+					</div><br/><br/><br/><br/><br/><br/><br/><br/>
+				</div>
+				<div class="lg-6 release-desktop-packshot">
+					<%= image_tag(@release.packshot) %>
+				</div>
+				<div class="lg-6 bg-faint release-block bg-custom cl-custom desktop-tracklisting">
+						<div class="sm-12 lg-9 release-info mobile-thin-padding">
+								<div class="release-headline">
+									<h2 class="release-title large"><%= @release.title %></h2>
+								</div>
+								<div class="tracklisting">
+									<div class="cat-number"><%= @release.artist %></div>
+									<%= raw(@release.tracklist) %>
+								</div>
+							</div>
+					</div>
+			</div>
+			<!-- mobile-only image -->
+			<div class="sm-12 md-12 lg-0 xl-0 bg-custom overflow-hidden mobile-content">
+				<%= image_tag(@release.packshot) %>
+			</div>
+			<!-- flex -->
+			<div class="sm-12 bg-faint release-block bg-custom cl-custom mobile-content">
+					<!-- title / tracklisting -->
+					<div class="sm-12 lg-4 release-info mobile-thin-padding">
+						<div class="release-headline pad-space-top">
+							<h2 class="release-title large"><%= @release.title %></h2>
+						</div>
+						<div class="tracklisting">
+							<div class="cat-number"><%= @release.artist %></div>
+							<%= raw(@release.tracklist) %>
+						</div>
+					</div>
+				</div>
+			<!-- flex -->
+		</div>
+	</div>
+	<div class="row">
+		<div class="pad-space-desktop pad-half-mobile mobile-content">
+			<div class="sm-12 md-12 lg-12 xl-12">
+				<div class="multi-column">
+					<%= @release.description %>
+				</div><br/><br/><br/><br/><br/><br/><br/><br/>
+			</div>
+		</div>
+	</div>
+	<section id="dynamic_content" class="fading">
+		<div class="band pad-bottom minimize-top-margin fading">
+			<div class="row release-row" id="videoWrapper">
+				<% unless @release.url.blank? %>
+					<iframe src="https://player.vimeo.com/video/<%= @release.url %>" 
+						width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+					</iframe>
+				<% end %>
+			</div>
+		</div>
+	</section>
+</section>

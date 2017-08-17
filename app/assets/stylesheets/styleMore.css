@@ -1,0 +1,43 @@
+body, h2, h5 {font-family:"ITC Avant Garde Gothic Pro";}
+h4, h6 {font-family:"ITC Avant Garde Gothic Pro";font-weight:300;}
+h4 {font-size:16px;}
+.secondaryNews, .secondaryNews p, .secondaryNews h5, .secondaryNews h4 {margin:12px 0px;}
+.secondaryNews h6 {margin-bottom:0px;}
+.secondaryNews h4 {margin-top:4px}
+.secondaryNews p {padding:0px 0px 12px 0px;font-size:0.8em;}
+.color {background-color:none;}
+.image-widescreen {width:46%;padding:0;height:100%;display:inline-block;}
+div.selectorMargin div:nth-child(1) {margin:0% 7.6% 0% 0%;}
+.selectorMargin {background-color:#f2dccb;}
+.image-widescreen img {top:0;transform: translateY(-0%);}
+.drawer-menu-item, .drawer-dropdown-menu-item {padding-top:3px!important;padding-bottom:3px!important;line-height:1.4em!important;}
+.drawer-dropdown-menu-item {line-height:1.4em!important;margin:2px 0px;}
+.drawer-menu-item, .drawer-menu-item a {text-decoration:none;}
+a {text-decoration:none;}
+a:hover {color:inherit;}
+.newsContent {display:inline;float:left;}
+
+.text-overlay {
+	position: absolute;
+  	top: 95%;
+  	left: 20%;  
+  	transform: translate(-13%, -95%);
+}
+
+.text-overlay h6 {margin-bottom:18px;}
+
+.parent { position:absolute;}
+.child { position:fixed;width:34.76%;}
+.positionFix {float:right;}
+
+@media (max-width:71.9375em) {
+	.parent { position:relative;}
+	.child { position:relative;width:100%}
+	.positionFix {float:none;}
+}
+
+.brick {background-color:none;}
+.social-image {max-width:20%;}
+
+.text-area {width:100%;}
+.text-areaArea {width:100%;height:300px;}

@@ -5,7 +5,6 @@ class ApplicationController < ActionController::Base
   
   def bring_in_models
     @releases = Release.order("id DESC")
-    @release = Release.first
-    @headline_release = Release.second
+    @headline_release = Release.last
   end
 end

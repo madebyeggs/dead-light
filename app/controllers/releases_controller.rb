@@ -2,10 +2,12 @@ class ReleasesController < ApplicationController
   before_filter :authenticate_user!, except: [:release_show_via_ajax_call, :show]
 
   def new
+    bring_in_models
     @release = Release.new
   end
 
   def create
+    bring_in_models
     @release = Release.create(release_params)
     respond_to do |format|
       format.html { redirect_to root_path }
@@ -13,10 +15,12 @@ class ReleasesController < ApplicationController
   end
 
   def edit
+    bring_in_models
     @release = Release.find(params[:id])
   end
 
-  def update   
+  def update
+    bring_in_models   
     @release = Release.find(params[:id])
     if @release.update_attributes(release_params)
       respond_to do |format|
@@ -40,6 +44,7 @@ class ReleasesController < ApplicationController
   end
   
   def index
+    bring_in_models
     @releases = Release.all
   end
   

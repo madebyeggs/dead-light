@@ -1,6 +1,27 @@
-body, h2, h5 {font-family:"ITC Avant Garde Gothic Pro";}
-h4, h6 {font-family:"ITC Avant Garde Gothic Pro";font-weight:300;}
+@font-face {
+	font-family: 'EddyBold';
+	src: font-url('ITCAvantGardePro-Bold.eot');
+	src: font-url('ITCAvantGardePro-Bold.eot?#iefix') format('embedded-opentype'),
+		font-url('ITCAvantGardePro-Bold.woff') format('woff'),
+		font-url('ITCAvantGardePro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Eddy';
+	src: url('ITCAvantGardePro-Bk.eot');
+	src: url('ITCAvantGardePro-Bk.eot?#iefix') format('embedded-opentype'),
+		url('ITCAvantGardePro-Bk.woff') format('woff'),
+		url('ITCAvantGardePro-Bk.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+body, h2, h5 {font-family:"Eddy";}
+h4, h6, h2 {font-family:"EddyBold";font-weight:300;}
 h4 {font-size:16px;}
+b {font-family:"EddyBold";}
 .secondaryNews, .secondaryNews p, .secondaryNews h5, .secondaryNews h4 {margin:12px 0px;}
 .secondaryNews h6 {margin-bottom:0px;}
 .secondaryNews h4 {margin-top:4px}
@@ -12,7 +33,7 @@ div.selectorMargin div:nth-child(1) {margin:0% 7.6% 0% 0%;}
 .image-widescreen img {top:0;transform: translateY(-0%);}
 .drawer-menu-item, .drawer-dropdown-menu-item {padding-top:3px!important;padding-bottom:3px!important;line-height:1.4em!important;}
 .drawer-dropdown-menu-item {line-height:1.4em!important;margin:2px 0px;}
-.drawer-menu-item, .drawer-menu-item a {text-decoration:none;}
+.drawer-menu-item, .drawer-menu-item a {text-decoration:none;font-family:"EddyBold";}
 a {text-decoration:none;}
 a:hover {color:inherit;}
 .newsContent {display:inline;float:left;}

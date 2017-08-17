@@ -155,27 +155,6 @@ table th {
     align-self: baseline
 }
 
-/*@font-face {
-    font-family: lineto-brown;
-    src: url(../fonts/lineto-brown-pro-light.woff) format("woff");
-    font-weight: 200;
-    font-style: normal
-}
-
-@font-face {
-    font-family: lineto-brown;
-    src: url(../fonts/lineto-brown-pro-regular.woff) format("woff");
-    font-weight: 500;
-    font-style: normal
-}
-
-@font-face {
-    font-family: lineto-brown;
-    src: url(../fonts/lineto-brown-pro-bold.woff) format("woff");
-    font-weight: 800;
-    font-style: normal
-}*/
-
 .massive {
     font-size: 3.125em
 }
@@ -363,7 +342,7 @@ html {
     font-size: 100%;
     min-width: 20em;
     min-height: 30em;
-    font-family: sans-serif;
+    font-family: "Eddy";
     background: #fefefd;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -383,7 +362,7 @@ h5,
 h6,
 input,
 select {
-    font-family:sans-serif
+    font-family:"Eddy";
 }
 
 .bold,
@@ -411,6 +390,7 @@ h6 {
     html {
         font-size: 2.4vw
     }
+.date {display:none;}
 }
 
 @media (max-width:33.20625em) {

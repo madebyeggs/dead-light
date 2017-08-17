@@ -13,7 +13,9 @@
 		        	Releases <span class="drawer-caret"></span>
 		        </a>
           		<ul class="drawer-dropdown-menu">
-					
+					<% @releases.each do |r| %>
+						<li><%= link_to r.title, release_path(r), :class => "drawer-dropdown-menu-item" %></li>
+					<% end %>
           		</ul>
         	</li>
         	</li>

@@ -22,18 +22,8 @@
 									<div class="cat-number"><%= @release.artist %></div>
 									<%= raw(@release.tracklist) %>
 									<br/><br/><br/>
-									<a class="button" href="<%= @release.buylink1 %>"
-									target="_blank">
-										<% if @release.id == 2 %>Buy Physical (Norman Records)
-											<% else %>Preorder Physical (Rough Trade)
-										<% end %>
-									</a>
-									<a class="button" href="<%= @release.buylink2 %>"
-									target="_blank">
-										<% if @release.id == 2 %>Buy Digital (iTunes)
-											<% else %>Preorder Digital (iTunes)
-										<% end %>
-									</a>
+									<a class="button" href="<%= @release.buylink1 %>"target="_blank">Preorder Physical (<%= @release.vendor1 %>)</a>
+									<a class="button" href="<%= @release.buylink2 %>"target="_blank">Preorder Digital (<%= @release.vendor2 %>)</a>
 								</div>
 							</div>
 					</div>
@@ -53,18 +43,8 @@
 							<div class="cat-number"><%= @release.artist %></div>
 							<%= raw(@release.tracklist) %>
 							<br/><br/><br/>
-							<a class="button" href="<%= @release.buylink1 %>"
-							target="_blank">
-								<% if @release.id == 2 %>Buy Physical (Norman Records)
-									<% else %>Preorder Physical (Rough Trade)
-								<% end %>
-							</a>
-							<a class="button" href="<%= @release.buylink2 %>"
-							target="_blank">
-								<% if @release.id == 2 %>Buy Digital (iTunes)
-									<% else %>Preorder Digital (iTunes)
-								<% end %>
-							</a>
+							<a class="button" href="<%= @release.buylink1 %>"target="_blank">Preorder Physical (<%= @release.vendor1 %>)</a>
+							<a class="button" href="<%= @release.buylink2 %>"target="_blank">Preorder Digital (<%= @release.vendor2 %>)</a>
 						</div>
 					</div>
 				</div>

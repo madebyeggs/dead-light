@@ -29,10 +29,10 @@
 			    		<%= f.text_area :description, class: 'email text-areaArea' %><br /><br />
 						<%= f.label :Video_URL, class: "formText" %><br />
 			    		<%= f.text_field :url, class: 'email text-area' %><br /><br />
-						<%= f.label :Physical_buy_link, class: "formText" %><br />
-			    		<%= f.text_field :buylink1, class: 'email text-area' %><br /><br />
-						<%= f.label :Digital_buy_link, class: "formText" %><br />
-			    		<%= f.text_field :buylink2, class: 'email text-area' %><br /><br />
+						<%= f.label :Physical_buy_link, class: "formText-half one" %><%= f.label :Vendor_name, class: "formText-half" %><br />
+			    		<%= f.text_field :buylink1, class: 'text-area-half one' %><%= f.text_field :vendor1, class: 'text-area-half' %><br /><br />
+						<%= f.label :Digital_buy_link, class: "formText-half one" %><%= f.label :Vendor_name, class: "formText-half" %><br />
+			    		<%= f.text_field :buylink2, class: 'text-area-half one' %><%= f.text_field :vendor2, class: 'text-area-half' %><br /><br /><br /><br />
 						<%= f.label :tracklist, class: "formText" %><br />
 			    		<%= f.text_area :tracklist, class: 'email text-areaArea' %><br /><br />
 			    		<%= f.submit %>

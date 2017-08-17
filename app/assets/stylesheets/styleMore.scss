@@ -10,10 +10,10 @@
 
 @font-face {
 	font-family: 'Eddy';
-	src: url('ITCAvantGardePro-Bk.eot');
-	src: url('ITCAvantGardePro-Bk.eot?#iefix') format('embedded-opentype'),
-		url('ITCAvantGardePro-Bk.woff') format('woff'),
-		url('ITCAvantGardePro-Bk.ttf') format('truetype');
+	src: font-url('ITCAvantGardePro-Bk.eot');
+	src: font-url('ITCAvantGardePro-Bk.eot?#iefix') format('embedded-opentype'),
+		font-url('ITCAvantGardePro-Bk.woff') format('woff'),
+		font-url('ITCAvantGardePro-Bk.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
 }

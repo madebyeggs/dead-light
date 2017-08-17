@@ -58,6 +58,10 @@ a:hover {color:inherit;}
 	.positionFix {float:none;}
 }
 
+@media (max-width:320px) {
+	.mainNews h2 {font-size:14px;}
+}
+
 .brick {background-color:none;}
 .social-image {max-width:20%;}
 

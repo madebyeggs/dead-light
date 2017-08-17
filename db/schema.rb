@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170817142301) do
+ActiveRecord::Schema.define(version: 20170817165129) do
 
   create_table "releases", force: :cascade do |t|
     t.string   "artist"
@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(version: 20170817142301) do
     t.integer  "packshot_file_size"
     t.datetime "packshot_updated_at"
     t.text     "tracklist"
+    t.string   "buylink1"
+    t.string   "buylink2"
   end
 
   create_table "users", force: :cascade do |t|

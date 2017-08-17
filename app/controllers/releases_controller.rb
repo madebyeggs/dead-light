@@ -72,7 +72,7 @@ class ReleasesController < ApplicationController
   end
   
   def release_params
-    params.require(:release).permit(:release_id, :artist, :title, :description, :packshot, :url, :review1, :review2, :tracklist)
+    params.require(:release).permit(:release_id, :artist, :title, :description, :packshot, :url, :review1, :review2, :tracklist, :buylink1, :buylink2)
   end
   
 end

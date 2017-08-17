@@ -7,4 +7,5 @@ class ApplicationController < ActionController::Base
     @releases = Release.order("id DESC")
     @headline_release = Release.last
   end
+  
 end

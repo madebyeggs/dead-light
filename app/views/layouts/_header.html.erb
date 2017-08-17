@@ -13,12 +13,14 @@
 		        	Releases <span class="drawer-caret"></span>
 		        </a>
           		<ul class="drawer-dropdown-menu">
-					<% @releases.each do |r| %>
-						<li><%= link_to r.title, release_path(r), :class => "drawer-dropdown-menu-item" %></li>
-					<% end %>
+					
           		</ul>
         	</li>
-        	</li>
+			<% if user_signed_in? %>
+					<li>{ Logged in as <strong><%= current_user.email %></strong> }</li>
+					<li><%= link_to 'Edit', edit_user_registration_path %></li>
+					<li><%= link_to 'Logout', destroy_user_session_path, :method => :delete %></li>
+			<% end %>
       	</ul>
 	</nav>
 </header>

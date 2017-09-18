@@ -39,11 +39,20 @@ a {text-decoration:none;}
 a:hover {color:inherit;}
 .newsContent {display:inline;float:left;}
 
-.text-overlay {
+.text-overlay-mobile {
 	position: absolute;
   	top: 95%;
-  	left: 20%;  
-  	transform: translate(-13%, -95%);
+  	left: 46.5%;
+	width:80%;
+  	transform: translate(-46.5%, -95%);
+}
+
+.text-overlay-desktop {
+	position: absolute;
+  	top: 95%;
+  	left: 5%;
+	width:35%;
+  	transform: translate(-5%, -95%);
 }
 
 .text-overlay h6 {margin-bottom:18px;}

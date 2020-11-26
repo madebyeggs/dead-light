@@ -14,7 +14,7 @@ gem 'font-awesome-rails', '~> 4.5.0.1'
 gem 'smt_rails', :git => 'git://github.com/railsware/smt_rails.git'
 # Gemfile
 gem 'paperclip'
-gem 'aws-sdk', '~> 2.3'
+gem 'aws-sdk'
 gem 'sass-rails'
 gem 'owlcarousel-rails'
 gem 'devise'

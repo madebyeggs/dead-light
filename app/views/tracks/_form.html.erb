@@ -1,0 +1,36 @@
+<section id="dynamic_content" class="fading">
+	<!-- tracklisting & pack shot -->
+	<div class="band pad-bottom pad-top fading" id="section_tracklist" data-releaseid="02">
+		<div class="row release-row">
+			<!-- desktop-only content -->
+			<div class="desktop-content">
+		
+				<div class="title grid-full">
+					<h2>Add/edit your track content here</h2>
+					<span class="border"></span>
+				</div>
+
+				<div class="formWrapper">
+					<% if @track.errors.any? %>
+						<div class="message warning">
+							<% @track.errors.full_messages.each do |msg| %>
+					   			<%= msg %><br/>
+							<% end %>
+						</div>
+					<% end %>	
+					<%= form_for(@track) do |f| %>
+						<%= f.label :name, class: "formText" %><br/>
+						<%= f.text_field :name, class: 'email text-area' %><br /><br />
+						<%= f.label :duration, class: "formText" %><br/>
+						<%= f.text_field :duration, class: 'email text-area' %><br /><br />
+						<%= f.label :url, class: "formText" %><br/>
+						<%= f.text_field :url, class: 'email text-area' %><br /><br />
+						<%= f.collection_select(:release_id, Release.all, :id, :title) %><br/><br/>
+			    		<%= f.submit %>
+					<% end %>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>

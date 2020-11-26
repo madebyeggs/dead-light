@@ -16,7 +16,9 @@
 									</div>
 									<div class="tracklisting">
 										<div class="cat-number"><%= release.artist %></div>
-										<%= raw(release.tracklist) %>
+										<% release.tracks.each do |track| %>
+											<div class="track"><span class="title"><%= track.name %></span><span class="length"><%= track.duration %></span></div>
+										<% end %>
 										<br/><br/><br/>
 										<a class="button" href="<%= release.buylink1 %>"target="_blank"><%= release.vendor1 %></a>
 										<a class="button" href="<%= release.buylink2 %>"target="_blank"><%= release.vendor2 %></a>
@@ -42,7 +44,9 @@
 									</div>
 									<div class="tracklisting">
 										<div class="cat-number"><%= release.artist %></div>
-										<%= raw(release.tracklist) %>
+										<% release.tracks.each do |track| %>
+											<div class="track"><span class="title"><%= track.name %></span><span class="length"><%= track.duration %></span></div>
+										<% end %>
 										<br/><br/><br/>
 										<a class="button" href="<%= release.buylink1 %>"target="_blank"><%= release.vendor1 %></a>
 										<a class="button" href="<%= release.buylink2 %>"target="_blank"><%= release.vendor2 %></a>

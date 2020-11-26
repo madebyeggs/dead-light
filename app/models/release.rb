@@ -1,5 +1,6 @@
 class Release < ActiveRecord::Base
   
+  has_many :tracks, dependent: :destroy
   has_attached_file :packshot, styles: {
       medium: '545x545>'
     }

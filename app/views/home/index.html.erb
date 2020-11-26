@@ -5,10 +5,10 @@
 		<div class="row release-row">
 			<!-- desktop-only content -->
 			<div class="desktop-content">
-				<% @all_releases.each do |release| %>
+				<% @all_releases.each_with_index do |release, release_index| %>
 					<div class="container">
-						<div class="lg-6">
-							<%= image_tag(release.packshot) %>
+						<div class="lg-6 <%= "lg-6-#{release_index}" %>">
+							<%= image_tag(release.packshot, :class => "releaseImage") %>
 							<div class="bg-faint release-block bg-custom cl-custom">
 								<div class="sm-12 lg-9 release-info mobile-thin-padding">
 									<div class="release-headline">

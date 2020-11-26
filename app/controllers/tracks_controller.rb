@@ -16,12 +16,12 @@ class TracksController < ApplicationController
 
   def edit
     bring_in_models
-    @track = track.find(params[:id])
+    @track = Track.find(params[:id])
   end
 
   def update
     bring_in_models   
-    @track = track.find(params[:id])
+    @track = Track.find(params[:id])
     if @track.update_attributes(track_params)
       respond_to do |format|
        format.html { redirect_to root_path }
@@ -36,7 +36,7 @@ class TracksController < ApplicationController
   end
 
   def destroy
-    @track = track.find(params[:id])
+    @track = Track.find(params[:id])
     @track.destroy
     respond_to do |format|
       format.html { redirect_to root_path }
@@ -45,22 +45,22 @@ class TracksController < ApplicationController
   
   def index
     bring_in_models
-    @tracks = track.all
+    @tracks = Track.all
   end
   
   def show
     bring_in_models
-    @track = track.find(params[:id])
+    @track = Track.find(params[:id])
     render :show, flush: true
   end
   
   def track_show_via_ajax_call
-    @track = track.find(params[:id])
+    @track = Track.find(params[:id])
     render :json => @track
   end
   
   def send_object_via_ajax
-    @track = track.find(params[:id])
+    @track = Track.find(params[:id])
     render :json => @track
   end
 

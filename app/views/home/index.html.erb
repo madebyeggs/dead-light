@@ -1,89 +1,69 @@
 <div class="top-margin sm-0 md-0">&nbsp;</div>
 <section id="dynamic_content" class="fading">
-	<div class="row">
-		<div class="parent">
-			<div class="lg-5 desktop-content brick">
-				<a class="mainNews" href="<%= release_path(@headline_release) %>">
-					<div class="text-overlay-desktop">
-						<h6 class="date">August 25th 2017</h6><br/>
-						<h2>'Dead Light Remixed' featuring reworkings by Andrea Belfi, The Sight Below and Luke Abbott is out now.</h2>
+	<!-- tracklisting & pack shot -->
+	<div class="band pad-bottom fading" id="section_tracklist" data-releaseid="02">
+		<div class="row release-row">
+			<!-- desktop-only content -->
+			<div class="desktop-content">
+				<% @all_releases.each do |release| %>
+					<div class="container">
+						<div class="lg-6">
+							<%= image_tag(release.packshot) %>
+							<div class="bg-faint release-block bg-custom cl-custom">
+								<div class="sm-12 lg-9 release-info mobile-thin-padding">
+									<div class="release-headline">
+										<h2 class="release-title large"><%= release.title %></h2>
+									</div>
+									<div class="tracklisting">
+										<div class="cat-number"><%= release.artist %></div>
+										<%= raw(release.tracklist) %>
+										<br/><br/><br/>
+										<a class="button" href="<%= release.buylink1 %>"target="_blank"><%= release.vendor1 %></a>
+										<a class="button" href="<%= release.buylink2 %>"target="_blank"><%= release.vendor2 %></a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<%= image_tag('mainNews.jpg') %>
-				</a>
+				<% end %>
 			</div>
-			<div class="lg-5 mobile-content">
-				<a class="mainNews" href="<%= release_path(@headline_release) %>">
-					<div class="text-overlay-mobile small">
-						<h6 class="date">September 19th 2017</h6><br/>
-						<h2>'Dead Light Remixed' featuring reworkings by Andrea Belfi, The Sight Below and Luke Abbott is out now.</h2>
+			<!-- mobile-only content -->
+			<div class="mobile-content">
+				<% @all_releases.each do |release| %>
+					<div class="mobile-container">
+						<div class="sm-12 md-12 lg-0 xl-0 bg-custom overflow-hidden mobile-content">
+							<%= image_tag(release.packshot) %>
+							<div class="bg-faint release-block bg-custom cl-custom mobile-content">
+								<!-- title / tracklisting -->
+								<div class="sm-1">&nbsp;</div>
+								<div class="sm-8 lg-5 release-info mobile-thin-padding">
+									<div class="release-headline pad-space-top">
+										<h2 class="release-title large"><%= release.title %></h2>
+									</div>
+									<div class="tracklisting">
+										<div class="cat-number"><%= release.artist %></div>
+										<%= raw(release.tracklist) %>
+										<br/><br/><br/>
+										<a class="button" href="<%= release.buylink1 %>"target="_blank"><%= release.vendor1 %></a>
+										<a class="button" href="<%= release.buylink2 %>"target="_blank"><%= release.vendor2 %></a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<%= image_tag('mainNewsMobile.jpg') %>
-				</a>
-			</div>
-		</div>
-		<div class="lg-7 positionFix">
-			<div class="masonry pad-space-left pad-half-mobile2">
-				<div class="brick">
-					<a class="" href="./releases/" target="_blank">
-						<%= image_tag('clashPrem.jpg') %>
-						<div class="secondaryNews">
-							<h6>July 17th 2017</h6>
-							<h4>Clash premiere 'Falling In (Luke Abbott Remix)'</h4>
-							<p>Luke Abbott seizes hold of 'Falling In', delivering a languid, atmospheric re-working that is heavy on murky, suggestive electronics...</p>
-						</div>
-					</a>
-				</div>
-				<div class="brick">
-					<a class="" href="https://www.wearefloat.co.uk/piano-day-2017/" target="_blank">
-						<%= image_tag('liveUC.jpg') %>
-						<div class="secondaryNews">
-							<h6>March 28th 2017</h6>
-							<h4>Live at Union Chapel</h4>
-							<p>We'll be appearing live for the first time as part of the 2017 Piano Day event at Union Chapel...</p>
-						</div>
-					</a>
-				</div>
-				<div class="brick">
-					<a class="" href="http://www.zakemerson.com/the-first-day-of-summer-1" target="_blank">
-						<%= image_tag('summer.jpg') %>
-						<div class="secondaryNews">
-							<h6>March 17th 2017</h6>
-							<h4>Soundtrack for documentary 'The First Day Of Summer'</h4>
-							<p>Award winning commercials and short film director Zak Emerson...</p>
-						</div>
-					</a>
-				</div>
-				<div class="brick">
-					<a class="" href="http://www.goldflakepaint.co.uk/album-stream-dead-light-dead-light-lp/" target="_blank">
-						<%= image_tag('packshot.jpg') %>
-						<div class="secondaryNews">
-							<h6>November 12th 2016</h6>
-							<h4>Review - Goldflakepaint</h4>
-							<p><em>"Dead Light transforms the cognitive dissonance of being displaced into an immersive musical journey, without end or beginning"</em></p>
-						</div>
-					</a>
-				</div>
-				<div class="brick">
-					<a class="" href="https://www.thelineofbestfit.com/features/track-by-track/track-by-track-dead-light-on-their-beautiful-debut-album" target="_blank">
-						<%= image_tag('trackbytrack.jpg') %>
-						<div class="secondaryNews">
-							<h6>October 13th 2016</h6>
-							<h4>Track by Track - The Line of Best Fit</h4>
-							<p><em>"Dead Light on their beautiful debut album"</em></p>
-						</div>
-					</a>
-				</div>
-				<div class="brick">
-					<a class="" href="https://www.nowness.com/story/dead-light-sleeper-susi-sie" target="_blank">
-						<%= image_tag('sleeper.png') %>
-						<div class="secondaryNews">
-							<h6>October 6th 2016</h6>
-							<h4>Nowness premier video for 'Sleeper'</h4>
-							<p>Susi Sie's<em> "marbleized vision from the contemporary composer duo’s euphoric release"</em></p>
-						</div>
-					</a>
-				</div>
+				<% end %>
 			</div>
 		</div>
 	</div>
+	<section id="dynamic_content" class="fading">
+		<div class="lg-12 band pad-bottom fading">
+			<div class="row release-row" id="videoWrapper">
+				<% unless @release.url.blank? %>
+					<iframe src="https://player.vimeo.com/video/<%= @release.url %>" 
+						width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+					</iframe>
+				<% end %>
+			</div>
+		</div>
+	</section>
 </section>

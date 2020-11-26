@@ -11,7 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170817165129) do
+ActiveRecord::Schema.define(version: 20170817171701) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "releases", force: :cascade do |t|
     t.string   "artist"
@@ -20,15 +23,17 @@ ActiveRecord::Schema.define(version: 20170817165129) do
     t.string   "url"
     t.string   "review_1"
     t.string   "review_2"
-    t.datetime "created_at",                      null: false
-    t.datetime "updated_at",                      null: false
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
     t.string   "packshot_file_name"
     t.string   "packshot_content_type"
-    t.integer  "packshot_file_size",    limit: 8
+    t.integer  "packshot_file_size"
     t.datetime "packshot_updated_at"
     t.text     "tracklist"
     t.string   "buylink1"
     t.string   "buylink2"
+    t.string   "vendor1"
+    t.string   "vendor2"
   end
 
   create_table "users", force: :cascade do |t|
@@ -46,7 +51,7 @@ ActiveRecord::Schema.define(version: 20170817165129) do
     t.datetime "updated_at",                          null: false
   end
 
-  add_index "users", ["email"], name: "index_users_on_email", unique: true
-  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
 end

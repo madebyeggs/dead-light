@@ -1439,7 +1439,6 @@ button:hover {
 
 @media (min-width:72em) {
 	.minimize-top-margin {margin-top:-176px!important;}
-	.mobile-content {display:none!important;}
 	.desktop-content {display:inline!important;}
 	.desktop-info {width:50%!important;float:left;margin-top:0px;}
 	.desktop-tracklisting {width:49.9%!important;}
@@ -1477,7 +1476,8 @@ button:hover {
         width: 41.66%
     }
     .lg-6 {
-        width: 50%;
+        width: 48%;
+		padding:0% 1%;
         float: left
     }
     .lg-7 {
@@ -2412,6 +2412,7 @@ nav {
 .release-row {
     overflow: visible
 }
+
 
 .release-row .release-next,
 .release-row .release-prev {

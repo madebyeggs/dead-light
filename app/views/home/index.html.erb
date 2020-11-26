@@ -21,7 +21,11 @@
 										<% end %>
 										<br/><br/><br/>
 										<a class="button" href="<%= release.buylink1 %>"target="_blank"><%= release.vendor1 %></a>
-										<a class="button" href="<%= release.buylink2 %>"target="_blank"><%= release.vendor2 %></a>
+										<a class="button" href="<%= release.buylink2 %>"target="_blank"><%= release.vendor2 %></a><br/>
+										<% if user_signed_in? %>
+											<%= link_to 'Create new track', new_track_path, :class => "button" %>
+										<% end %>
+										
 									</div>
 								</div>
 							</div>
